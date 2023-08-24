@@ -1,0 +1,99 @@
+.navbar{
+    height: 106px;
+    background-color:rgb(97, 51, 19)
+
+}
+
+.navbar-brand img{
+    height: 100px;
+
+}
+.nav-link{
+    color: gainsboro !important
+}
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/15487-cafe.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+
+}
+
+h2{
+    text-align:center;
+    background-color: rgb(124, 97, 37);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+.carousel{
+    justify-content: center !important; 
+    height: 800px;
+    width: 100%;
+}
+article{
+    border: 3px solid #000;
+    background-color: beige;
+    text-align: center;
+
+}
+
+article{
+    font-size: 30px;
+}
+
+
+/*footer*/
+footer {
+    display:grid;
+    place-items:center;
+    padding: 50px 0;
+    height: 100%;
+    background-color: rgb(232, 168, 168);
+}
+footer{
+    background-color:#5a5a5a;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    height: 90px;
+    padding: 20px;
+    
+}
+
+footer p{
+    margin-bottom: 30px;
+}
+
+footer i{
+    color: black;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    box-shadow: 0 0 5px #000000;
+}
+
+
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse{
+        background-color: rgba(97, 51, 19, 0);
+        display: flex;
+        justify-content: center !important; 
+    }
+    
+}
